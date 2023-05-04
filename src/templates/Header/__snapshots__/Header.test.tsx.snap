@@ -1,0 +1,290 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render on screen properly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-height: 4rem;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(90deg,rgba(44,62,80,0.1) 0px,rgba(44,100,80,0.6) 40%,rgba(44,62,80,0.1) 100%) 1;
+  background-clip: padding-box;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0.938rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c7 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+  margin-right: 0.938rem;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  font-weight: bold;
+  color: #00CBA9;
+  margin-left: 15px;
+  margin-bottom: none;
+}
+
+.c10 {
+  display: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  -webkit-animation: none .2s forwards;
+  animation: none .2s forwards;
+  z-index: 9999;
+}
+
+.c8 {
+  position: none;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  z-index: 9999;
+  -webkit-box-pack: end;
+  -webkit-justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-shadow: none;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #273036;
+  box-shadow: inset 5px 5px 26px #1e252a, inset -5px -5px 26px #303b42;
+}
+
+.c4 {
+  height: 50%;
+  width: 50%;
+  color: #00CBA9;
+}
+
+.c5 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c11 {
+  color: #00CBA9;
+  width: 100%;
+  height: 100%;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div>
+  <header
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          class="c3"
+        >
+          <div
+            class="c4"
+          >
+            <svg
+              aria-hidden="true"
+              class="c5"
+              data-testid="Logo"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4 18a2 2 0 1 1 0 4 2 2 0 0 1 0-4Zm5.5-3a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM12 2a5.41 5.41 0 0 1 5.33 4.47h.08a3.76 3.76 0 1 1 0 7.53H6.6a3.76 3.76 0 1 1 0-7.53h.08A5.41 5.41 0 0 1 12 2Z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <p
+        class="c6"
+      >
+        Welcome, 
+        testUser
+         
+      </p>
+    </div>
+    <nav
+      class="c7"
+    >
+      <div
+        class="c8"
+        data-testid="blur"
+      >
+        <div
+          class="c9"
+          data-testid="profile"
+        >
+          <a
+            href="/user/123"
+          >
+            Profile
+          </a>
+        </div>
+        <div
+          class="c9"
+          data-testid="home"
+        >
+          <a
+            href="/home"
+          >
+            Home
+          </a>
+        </div>
+        <div
+          class="c9"
+          data-testid="logout"
+        >
+          <p
+            class="c6"
+          >
+            Logout 
+          </p>
+        </div>
+      </div>
+      <div
+        class="c10"
+        data-testid="menu"
+      >
+        <div
+          class="c11"
+          data-testid="MenuOutline"
+        >
+          <svg
+            aria-hidden="true"
+            class="c5"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              data-name="Layer 2"
+            >
+              <g
+                data-name="menu"
+              >
+                <rect
+                  height="2"
+                  rx="0.95"
+                  ry="0.95"
+                  width="18"
+                  x="3"
+                  y="11"
+                />
+                <rect
+                  height="2"
+                  rx="0.95"
+                  ry="0.95"
+                  width="18"
+                  x="3"
+                  y="16"
+                />
+                <rect
+                  height="2"
+                  rx="0.95"
+                  ry="0.95"
+                  width="18"
+                  x="3"
+                  y="6"
+                />
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </nav>
+  </header>
+</div>
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SubmitButton> should render on screen with enamble button 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  all: unset;
+  background: #00CBA9;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 0.313rem;
+  height: 2rem;
+  text-align: center;
+}
+
+<div>
+  <button
+    class="c0"
+  >
+    test
+  </button>
+</div>
+`;

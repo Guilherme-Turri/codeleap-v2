@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> should render on screen 1`] = `
+.c0 {
+  outline: none;
+  all: unset;
+  border-bottom: 1px solid #00CBA9;
+  width: 100%;
+  padding: 0.625rem;
+  box-sizing: border-box;
+  color: #F3F4F5;
+}
+
+.c0::-webkit-input-placeholder {
+  color: '#95A5A6'!important;
+}
+
+.c0::-moz-placeholder {
+  color: '#95A5A6'!important;
+}
+
+.c0:-ms-input-placeholder {
+  color: '#95A5A6'!important;
+}
+
+.c0::placeholder {
+  color: '#95A5A6'!important;
+}
+
+<div>
+  <input
+    autocomplete="new-password"
+    class="c0"
+    data-testid="Input"
+    placeholder="Email"
+    type="Email"
+    value="email"
+  />
+</div>
+`;

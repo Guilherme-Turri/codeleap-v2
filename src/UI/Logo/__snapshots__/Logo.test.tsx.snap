@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`</Logo> should render on screen 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #273036;
+  box-shadow: inset 5px 5px 26px #1e252a, inset -5px -5px 26px #303b42;
+}
+
+.c1 {
+  height: 50%;
+  width: 50%;
+  color: #00CBA9;
+}
+
+.c2 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <svg
+        aria-hidden="true"
+        class="c2"
+        data-testid="Logo"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M4 18a2 2 0 1 1 0 4 2 2 0 0 1 0-4Zm5.5-3a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM12 2a5.41 5.41 0 0 1 5.33 4.47h.08a3.76 3.76 0 1 1 0 7.53H6.6a3.76 3.76 0 1 1 0-7.53h.08A5.41 5.41 0 0 1 12 2Z"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;

@@ -21,19 +21,16 @@ padding: ${theme.spacings.normal};
 `
 
 export const Left = styled.div`
-${({ theme }) => css`
 display: flex;
 width: 100%;
 align-items: center;
 justify-content: flex-start;
-`}
+
 `
 export const Right = styled.nav`
-${({ theme }) => css`
 width: 100%;
 display: flex;
 justify-content: flex-end;
-`}
 `
 
 export const Img = styled.div<isMobile>`

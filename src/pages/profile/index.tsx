@@ -17,6 +17,8 @@ import { Add } from '../../UI/Add'
 import { useDispatch } from 'react-redux'
 import { setModal } from '../../context/modal/setModal'
 import { useWidth } from '../../hooks/useWidth';
+import { Helmet } from '../../helper/Helmet';
+
 
 
 export const Profile = () => {
@@ -53,6 +55,7 @@ export const Profile = () => {
 
   return (
     <Styled.Container isMobile={isMobile}>
+      <Helmet title='Profile'></Helmet>
       <ScrollToTop></ScrollToTop>
       {modal.showModal ? <ModalHolder data-testid='holderModal' user={userInPage} modalProps={modal} /> : null}
       <Header />

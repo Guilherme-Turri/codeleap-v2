@@ -12,6 +12,8 @@ import { Pencil } from '../../UI/Pencil'
 import { Left } from '../../templates/Left'
 import { FormRegister } from '../../templates/FormRegister'
 import { useWidth } from '../../hooks/useWidth'
+import { Helmet } from '../../helper/Helmet';
+
 
 export const Register = () => {
   const { error, loading, request } = useFetchData();
@@ -53,6 +55,7 @@ export const Register = () => {
   return (
     <>
       <Styled.Container data-testid='containerRegiste' isMobile={isMobile}>
+        <Helmet title='Register'></Helmet>
         <Left></Left>
         <Styled.Right>
           <Styled.Img>

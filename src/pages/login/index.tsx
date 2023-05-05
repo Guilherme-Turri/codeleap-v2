@@ -13,6 +13,8 @@ import { Info } from '../../templates/info-login-register'
 import { DoorOpened } from '../../UI/DoorOpened'
 import { Left } from '../../templates/Left'
 import { FormLogin } from '../../templates/FormLogin'
+import { Helmet } from '../../helper/Helmet';
+
 
 export const Login = () => {
   const { error, loading, request } = useFetchData();
@@ -72,6 +74,7 @@ export const Login = () => {
 
   return (
     <Styled.Container isMobile={isMobile} data-testid='loginpage'>
+      <Helmet title='Login'></Helmet>
       <Left></Left>
       <Styled.Right>
         <Styled.Img>

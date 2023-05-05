@@ -6,6 +6,8 @@ import { useSelector } from 'react-redux'
 import { RootState } from '../../store/store'
 import { LinkButton } from '../../components/LinkButton'
 import { useWidth } from '../../hooks/useWidth'
+import { Helmet } from '../../helper/Helmet';
+
 
 export const NotFound = () => {
 
@@ -15,6 +17,7 @@ export const NotFound = () => {
   const { user } = useSelector((state: RootState) => state.user);
   return (
     <Styled.Container>
+      <Helmet title='Not Found'></Helmet>
       <Styled.Wrapper data-testid='wrapper' isMobile={isMobile}>
         <Heading big={true} uppercase={true} as='h3'>Ooops</Heading>
         <Styled.Img>

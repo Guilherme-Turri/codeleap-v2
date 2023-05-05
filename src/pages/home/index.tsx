@@ -16,7 +16,7 @@ import { ScrollToTop } from '../../components/ScrollToTop'
 import { ModalHolder } from '../../templates/ModalHolder';
 import { setUpdate } from '../../store/posts/posts'
 import { useWidth } from '../../hooks/useWidth';
-
+import { Helmet } from '../../helper/Helmet';
 
 export const Home = () => {
   const { error, loading, request } = useFetchData();
@@ -77,6 +77,7 @@ export const Home = () => {
   }
   return (
     <Styled.Container data-testid='homepage'>
+      <Helmet title='Home'></Helmet>
       {modal?.showModal ? <ModalHolder user={user} modalProps={modal} /> : null}
       <ScrollToTop></ScrollToTop>
       <Header ></Header>

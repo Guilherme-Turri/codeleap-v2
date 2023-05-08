@@ -26,8 +26,7 @@ describe('<FormLogin/>', () => {
   })
   it('should render on screen with Loading text', () => {
     propsFormLogin.loading = true;
-    const { container } = componentRender(<FormLogin {...propsFormLogin} />)
+    componentRender(<FormLogin {...propsFormLogin} />)
     expect(screen.getByText('Loading...')).toBeInTheDocument();
-    screen.debug(container)
   })
 })

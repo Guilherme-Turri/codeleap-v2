@@ -127,7 +127,7 @@ exports[`<CardPost /> should render on screen properly 1`] = `
       <p
         class="c4"
       >
-        7 months ago
+        8 months ago
       </p>
     </div>
   </main>

@@ -8,16 +8,17 @@ interface FormProps {
   handleLogin: (event: React.FormEvent<HTMLFormElement>) => void,
   usermail: valuesForm,
   userpassword: valuesForm
+  loading: boolean
 }
 
-export const FormLogin = ({ usermail, userpassword, handleLogin }: FormProps) => {
+export const FormLogin = ({ loading, usermail, userpassword, handleLogin }: FormProps) => {
 
   return (
     <Styled.Container data-testid='form' onSubmit={handleLogin} >
       <Input type='text' name='Email' {...usermail}></Input>
       <Input type='password' name='Password' {...userpassword} />
       <SubmitButton usermail={usermail.value} userpassword={userpassword.value} error={usermail.error}>
-        Enter
+        {loading ? 'Loading...' : 'Enter'}
       </SubmitButton>
     </Styled.Container>
   )

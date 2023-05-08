@@ -80,7 +80,7 @@ export const Login = () => {
         <Styled.Img>
           <DoorOpened />
         </Styled.Img>
-        <FormLogin handleLogin={handleLogin} usermail={usermail} userpassword={userpassword} />
+        <FormLogin loading={loading} handleLogin={handleLogin} usermail={usermail} userpassword={userpassword} />
         <Styled.Info>
           <Info error={error} loading={loading} message={message} lock={lock} loginSucess={loginSucess} />
         </Styled.Info>

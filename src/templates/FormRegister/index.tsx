@@ -8,16 +8,17 @@ interface FormProps {
   username: valuesForm,
   usermail: valuesForm,
   userpassword: valuesForm
+  loading: boolean
 }
 
-export const FormRegister = ({ username, usermail, userpassword, handleRegister }: FormProps) => {
+export const FormRegister = ({ loading, username, usermail, userpassword, handleRegister }: FormProps) => {
 
   return (
     <Styled.Container data-testid='form' onSubmit={handleRegister} >
       <Input type='text' name='Name' {...username}></Input>
       <Input type='text' name='Email' {...usermail}></Input>
       <Input type='password' name='Password' {...userpassword} />
-      <SubmitButton name={username.value} usermail={usermail.value} userpassword={userpassword.value} error={usermail.error}>Register</SubmitButton>
+      <SubmitButton name={username.value} usermail={usermail.value} userpassword={userpassword.value} error={usermail.error}>{loading ? 'Creating...' : 'Register'}</SubmitButton>
     </Styled.Container>
   )
 }

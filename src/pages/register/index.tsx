@@ -61,7 +61,7 @@ export const Register = () => {
           <Styled.Img>
             <Pencil />
           </Styled.Img>
-          <FormRegister usermail={usermail} username={username} userpassword={userpassword} handleRegister={handleRegister}></FormRegister>
+          <FormRegister loading={loading} usermail={usermail} username={username} userpassword={userpassword} handleRegister={handleRegister}></FormRegister>
           <Styled.Info>
             <Info loading={loading} error={error} message={message} />
           </Styled.Info>

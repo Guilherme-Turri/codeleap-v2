@@ -6,5 +6,5 @@ import { Login } from '../../pages/login'
 
 export const ProtectedRoute = () => {
   const { user } = useSelector((state: RootState) => state.user);
-  return user ? <Home /> : <Login />;
+  return user?._id ? <Home /> : <Login />;
 }

@@ -38,6 +38,8 @@ This is a Front End project for a Social Media. The user should create an accoun
 :large_blue_circle: Styled-Icons
 :large_blue_circle: uuid
 :large_blue_circle: Firebase
+:large_blue_circle: Cypress
+
 
 
 ## Running
@@ -59,7 +61,7 @@ $ npm start
 
 ## On Prod:
 #### This project was deployed at **Vercel**.  
-:heavy_check_mark:Click here to see! [Codeleap Front end Test]https://codeleap-v2.vercel.app/).
+:heavy_check_mark:Click here to see! [Codeleap Front end Test]https://codeleap-v2.vercel.app/.
 
 
 

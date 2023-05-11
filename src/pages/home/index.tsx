@@ -35,7 +35,7 @@ export const Home = () => {
   const { modal } = useSelector((state: RootState) => state.modal);
 
   useEffect(() => {
-    const socket = io('https://clback.onrender.com');
+    const socket = io('https://backendcodeleap.onrender.com/');
     const handleNewPost = (data: string) => {
       if (data !== user?._id && !newNotification) {
         setNewNotification(true);

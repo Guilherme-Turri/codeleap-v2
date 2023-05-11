@@ -1,4 +1,4 @@
-const API_URL='https://clback.onrender.com/api/'
+const API_URL='https://backendcodeleap.onrender.com/api/'
 
 export function USER_LOGIN_API(email:string, password:string) {
   return {

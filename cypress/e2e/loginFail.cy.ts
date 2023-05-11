@@ -8,9 +8,9 @@ describe('Login fail', ()=>{
    cy.get('[type="text"]').type('cypress@');
    cy.get('[type="password"]').type('123');
    cy.document().contains('Please fill in a valid email').should('exist')
-
   })
-  it('should enter', ()=>{
+  
+  it('should try  to enter with an invalid mail/password', ()=>{
     cy.visit('https://codeleap-v2.vercel.app/')
    cy.get('[type="text"]').type('cypress@test.com');
    cy.get('[type="password"]').type('123');
